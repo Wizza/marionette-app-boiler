@@ -54,6 +54,7 @@ If you aren't familiar then check out these resources:
 
 - [BackboneJS](http://backbonejs.org)
 - [MarionetteJS](http://marionettejs.com)
+- [Backbone.Radio](https://github.com/jmeas/backbone.radio)
 - [GulpJS](http://gulpjs.com)
 - [Mocha](http://visionmedia.github.io/mocha/)
 - [Bower](http://bower.io/)
