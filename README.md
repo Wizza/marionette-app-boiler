@@ -2,8 +2,8 @@
 
 >I love using Marionette to develop Apps.
 I think Gulp is genious.
-I have been amazed by Node.js & the tools built upon it, nee ExpressJS
-I reckon Backbone.Radio is a great step forward
+I have been amazed by Node.js & the tools built upon it, nee ExpressJS.
+I reckon Backbone.Radio is a great step forward.
 I highly recommend using TDD. It saves you time. Truly.
 
 >I hate wasting time trying to piece together a coherent boiler plate from which I can start new projects.
@@ -43,5 +43,16 @@ the application file setup and configuration which then routes to sub-apps/modul
     
 **common/**
 a place to define abstract classes that are used within the apps e.g. APPController, etc
+
+## Further Reading
+If you aren't familiar then check out these resources:
+
+- [BackboneJS](http://backbonejs.org)
+- [MarionetteJS](http://marionettejs.com)
+- [GulpJS](http://gulpjs.com)
+- [Mocha](http://visionmedia.github.io/mocha/)
+- [Bower](http://bower.io/)
+- [ExpressJS](http://expressjs.com/)
+
     
  
