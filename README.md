@@ -39,7 +39,12 @@ called by *require_main.js* and enables JS libs to be specialized as reqd
 
 **src/app.js**
 the application file setup and configuration which then routes to sub-apps/modules
-    requires apps/load | which loads all sub-apps/modules in along with msgBus (Backbone.Radio : global channel)
+
+**apps/load.js**
+ called by *src/apps.js* and loads all sub-apps/modules
+ 
+**msgbus.js**
+utilizes Backbone.Radio to provide global messaging (event driven) across all sub-apps. acts as a mediator.
     
 **common/**
 a place to define abstract classes that are used within the apps e.g. APPController, etc
