@@ -19,8 +19,8 @@ Download and install [Node](http://node.org) to make use of the Node Package Man
 
 ## Setup
 1. Download the repository and extract into your ~/Sites/ folder
-2. On cmd line: `npm`
-3. On cmd line: `bower`
+2. On cmd line: `npm update`
+3. On cmd line: `bower update`
 
 ## Start
 1. On cmd line: `gulp`
