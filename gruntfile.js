@@ -1,6 +1,9 @@
 module.exports = function (grunt) {
     "use strict";
 
+    // load all modules
+    require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
+
     /**
      * Grunt Config
      */
@@ -39,9 +42,7 @@ module.exports = function (grunt) {
 
     });
 
-    // Load NPM Tasks
-    grunt.loadNpmTasks("grunt-blanket-mocha");
-    grunt.loadNpmTasks("grunt-contrib-watch");
+
 
     // Register Tasks
     grunt.registerTask("tests", ["blanket_mocha"]);
