@@ -1,7 +1,6 @@
 var gulp    = require('gulp'),
     uglify  = require('gulp-uglify'),
     rjs     = require('gulp-requirejs'),
-    mocha   = require('gulp-mocha'),
     gutil   = require('gulp-util'),
     nodemon = require('gulp-nodemon');
 
@@ -35,16 +34,6 @@ gulp.task('rjs', function() {
 
 });
 
-gulp.task('mocha', function(){
-    return gulp.src('test/*.js', {read: false})
-        .pipe(mocha({reporter: 'dot'}))
-            .on('error', gutil.log);
-});
-
-gulp.task('watch-mocha', function(){
-    gulp.watch(['test/**'], ['mocha']);
-});
-
 gulp.task('server', function(){
     nodemon({script: 'server/server.js', ext: 'html tpl', ignore: []})
         .on('change', function(){
@@ -56,7 +45,9 @@ gulp.task('server', function(){
 
 });
 
+
+
 //default for gulp command
-gulp.task('default', ['server', 'watch-mocha']);
+gulp.task('default', ['server']);
 
 gulp.task('build', ['rjs']);

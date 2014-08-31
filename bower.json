@@ -1,25 +1,28 @@
 {
-  "name": "Marionette-App-Boiler",
-  "version": "0.0.1",
-  "authors": [
-    "Greg McDowell"
-  ],
-  "license": "MIT",
-  "private": false,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "src/js/bower_components",
-    "test",
-    "tests",
-    "server/"
-  ],
-  "devDependencies": {
-    "requirejs": "~2.1.14",
-    "backbone.radio": "~0.6.0",
-    "backbone.marionette": "~2.1.0",
-    "backbone.syphon": "~0.4.1",
-    "requirejs-tpl": "*",
-    "48afb443b8c8c6ee4f46": "https://gist.github.com/48afb443b8c8c6ee4f46.git"
-  }
+    "name": "Marionette-App-Boiler",
+    "version": "0.0.1",
+    "authors": [
+        "Greg McDowell"
+    ],
+    "license": "MIT",
+    "private": false,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "src/js/bower_components",
+        "test",
+        "tests",
+        "server/"
+    ],
+    "devDependencies": {
+        "requirejs": "~2.1.14",
+        "backbone.radio": "~0.6.0",
+        "backbone.marionette": "~2.1.0",
+        "backbone.syphon": "~0.4.1",
+        "requirejs-tpl": "*",
+        "48afb443b8c8c6ee4f46": "https://gist.github.com/48afb443b8c8c6ee4f46.git",
+        "mocha": "~1.13.0",
+        "chai": "~1.8.0",
+        "blanket": "~1.1.0"
+    }
 }
