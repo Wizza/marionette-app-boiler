@@ -18,13 +18,17 @@ Download and install [Node](http://node.org) to make use of the Node Package Man
 `npm install -g bower`
 
 ## Setup
-1. Download the repository and extract into your ~/Sites/ folder
-2. On cmd line: `npm update`
-3. On cmd line: `bower update`
+1. Clone the repository and archive (extract) into a new directory in your ~/Sites/ folder
+2. On cmd line: `cd {your dir}` 
+3. On cmd line: `npm install`
+4. On cmd line: `bower install`
 
-## Start
+## Start Express webserver
 1. On cmd line: `gulp`
 2. In a browser: `localhost:8001`
+
+## Start Continuous Unit & Coverage tests
+1. On cmd line: `grunt`
 
 ## How it's laid out?
 **src/index.html**
@@ -56,9 +60,12 @@ If you aren't familiar then check out these resources:
 - [MarionetteJS](http://marionettejs.com)
 - [Backbone.Radio](https://github.com/jmeas/backbone.radio)
 - [GulpJS](http://gulpjs.com)
+- [GruntJS](http://gruntjs.com)
 - [Mocha](http://visionmedia.github.io/mocha/)
 - [Bower](http://bower.io/)
 - [ExpressJS](http://expressjs.com/)
+- [MochaJS](http://visionmedia.github.io/mocha/)
+- [BlanketJS](http://blanketjs.org)
 
     
  
