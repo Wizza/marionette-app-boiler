@@ -22,7 +22,7 @@ module.exports = function (grunt) {
             all: ["test/**/*.html"],
             options: {
                 threshold: 90,
-                run: false
+                run: true
             }
         },
 
@@ -31,7 +31,8 @@ module.exports = function (grunt) {
                 files: [
                     'src/js/apps/**/*.js',
                     'src/js/entities/**/*.js',
-                    'test/specs/**/*.js'
+                    'test/specs/**/*.js',
+                    'test/index.html'
                 ],
                 tasks: ['tests'],
                 options: {
